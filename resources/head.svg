@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="290">
+    <!-- Empty Rectangle -->
+    <rect x="50" y="50" width="155" height="155" fill="blue" stroke="black" stroke-width="2" />
+
+    <!-- Small Circle (Dot) following the path of the rectangle -->
+    <circle cx="30" cy="28" r="5" fill="red">
+        <animateMotion repeatCount="indefinite" dur="10s">
+            <mpath href="#path"/>
+        </animateMotion>
+    </circle>
+    <!-- Path for the animation --><path id="path" d="M20 20 H180 V180 H20 V20 Z" fill="none" />
+</svg>
